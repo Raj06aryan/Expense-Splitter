@@ -2,11 +2,11 @@
 
 A clean, object-oriented expense manager that supports Equal, Exact, and Percentage splits with a focus on scalable Low-Level Design (LLD).
 
-Overview
+## Overview
 
 The app tracks group expenses, computes who owes whom, and minimizes settlements. It’s designed to be easy to extend with new split types and notification channels.
 
-Key Features
+## Key Features
 
 Split types: Equal · Exact · Percentage (plugged via strategies)
 
@@ -16,7 +16,7 @@ Real-time updates: Observer-based notifications to 100% of group members on bala
 
 Extensible design: Clear boundaries for adding new splits, payment methods, or UIs
 
-Architecture & Patterns
+## Architecture & Patterns
 
 Strategy – pluggable SplitStrategy for Equal/Exact/Percent
 
